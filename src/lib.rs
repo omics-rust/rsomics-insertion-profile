@@ -374,7 +374,6 @@ pub fn write_r_script(
     Ok(())
 }
 
-/// Entry point: run analysis and write all output files.
 pub fn run_insertion_profile(
     bam_path: &Path,
     out_prefix: &Path,
